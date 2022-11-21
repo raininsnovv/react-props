@@ -1,0 +1,57 @@
+.card {
+    width: 250px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 5px;
+    border: 1px solid rgb(185, 185, 185);
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+.img {
+    width: 200px;
+    height: 200px;
+    margin-top: 15px;
+}
+
+.price {
+    margin-top: 20px;
+    margin-left: 10px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.newPrice {
+    font-size: 30px;
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+.oldPrice {
+    font-size: 20px;
+    color: rgb(152, 152, 149);
+    margin-left: 20px;
+    text-decoration: line-through;
+}
+
+.title {
+    font-size: 24px;
+    width: 100%;
+    padding-left: 20px;
+    height: 10px;
+    color: rgb(85, 84, 84);
+}
+
+.buyButton {
+    width: 90%;
+    height: 40px;
+    background-color: rgb(26, 126, 241);
+    border: none;
+    border-radius: 3px;
+    font-size: 18px;
+    color: white;
+
+}
